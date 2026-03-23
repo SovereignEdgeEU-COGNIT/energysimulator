@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_04f5fbd501afcdbc79199fc96d04160d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_04f5fbd501afcdbc79199fc96d04160d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_04f5fbd501afcdbc79199fc96d04160d = L.map(
+                "map_04f5fbd501afcdbc79199fc96d04160d",
+                {
+                    center: [54.526, 15.2551],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_834cda1fa0b16e8186ed6cbd711edd57 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_834cda1fa0b16e8186ed6cbd711edd57.addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var marker_3e54accfb3a4598af110aaf67b15e569 = L.marker(
+                [65.5848, 22.1547],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_42e1bd77a481f2bcdfbcdfe96d61c6c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e54accfb3a4598af110aaf67b15e569.setIcon(icon_42e1bd77a481f2bcdfbcdfe96d61c6c9);
+        
+    
+        var popup_95a95bcc7dd8ce8859f81a24f239e1e1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bc9da48a7d97bcd29be4d4523e87ac27 = $(`<div id="html_bc9da48a7d97bcd29be4d4523e87ac27" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Lulea<br>     <b>Nodes:</b> 6<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/SE-SE4.csv     </div>`)[0];
+                popup_95a95bcc7dd8ce8859f81a24f239e1e1.setContent(html_bc9da48a7d97bcd29be4d4523e87ac27);
+            
+        
+
+        marker_3e54accfb3a4598af110aaf67b15e569.bindPopup(popup_95a95bcc7dd8ce8859f81a24f239e1e1)
+        ;
+
+        
+    
+    
+            marker_3e54accfb3a4598af110aaf67b15e569.bindTooltip(
+                `<div>
+                     Lulea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71c3134fa679b14409c01452ee2ca6bb = L.marker(
+                [59.3293, 18.0686],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_eb1386530b05224863c2e9c1dd60c32e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71c3134fa679b14409c01452ee2ca6bb.setIcon(icon_eb1386530b05224863c2e9c1dd60c32e);
+        
+    
+        var popup_3a2515bb0f939dded5c6367da1855e7f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_657b45c1686b7426eb8da06cc3abe18f = $(`<div id="html_657b45c1686b7426eb8da06cc3abe18f" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Stockholm<br>     <b>Nodes:</b> 2<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/SE-SE3.csv     </div>`)[0];
+                popup_3a2515bb0f939dded5c6367da1855e7f.setContent(html_657b45c1686b7426eb8da06cc3abe18f);
+            
+        
+
+        marker_71c3134fa679b14409c01452ee2ca6bb.bindPopup(popup_3a2515bb0f939dded5c6367da1855e7f)
+        ;
+
+        
+    
+    
+            marker_71c3134fa679b14409c01452ee2ca6bb.bindTooltip(
+                `<div>
+                     Stockholm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94839fb199f4629a282c674918b1d045 = L.marker(
+                [55.7047, 13.191],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_66681f9263c72795ece7a2541c8227af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94839fb199f4629a282c674918b1d045.setIcon(icon_66681f9263c72795ece7a2541c8227af);
+        
+    
+        var popup_884feb132b1d74f34d77fade3918a095 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5ce222c87fe922aa11f15a0898a10ed7 = $(`<div id="html_5ce222c87fe922aa11f15a0898a10ed7" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Lund<br>     <b>Nodes:</b> 3<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/SE-SE4.csv     </div>`)[0];
+                popup_884feb132b1d74f34d77fade3918a095.setContent(html_5ce222c87fe922aa11f15a0898a10ed7);
+            
+        
+
+        marker_94839fb199f4629a282c674918b1d045.bindPopup(popup_884feb132b1d74f34d77fade3918a095)
+        ;
+
+        
+    
+    
+            marker_94839fb199f4629a282c674918b1d045.bindTooltip(
+                `<div>
+                     Lund
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2aacb92cc360c5ad63004af2f7c6cbb = L.marker(
+                [52.3676, 4.9041],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_2d11d304344edfe9d8bc855fe90712a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d2aacb92cc360c5ad63004af2f7c6cbb.setIcon(icon_2d11d304344edfe9d8bc855fe90712a1);
+        
+    
+        var popup_2e38dd8b8e46755e32daec13affe6f85 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_338694b826ecb53e7d68945d4ed6582c = $(`<div id="html_338694b826ecb53e7d68945d4ed6582c" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Amsterdam<br>     <b>Nodes:</b> 3<br>     <b>GPUs per Node:</b> 6<br>     <b>Carbon Intensity Trace:</b> ./carbon/NL.csv     </div>`)[0];
+                popup_2e38dd8b8e46755e32daec13affe6f85.setContent(html_338694b826ecb53e7d68945d4ed6582c);
+            
+        
+
+        marker_d2aacb92cc360c5ad63004af2f7c6cbb.bindPopup(popup_2e38dd8b8e46755e32daec13affe6f85)
+        ;
+
+        
+    
+    
+            marker_d2aacb92cc360c5ad63004af2f7c6cbb.bindTooltip(
+                `<div>
+                     Amsterdam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b3e5ce36179502798c5c54b299d0f31 = L.marker(
+                [50.8503, 4.3517],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_a906d7628facdd6cf3c99a527888f1a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0b3e5ce36179502798c5c54b299d0f31.setIcon(icon_a906d7628facdd6cf3c99a527888f1a1);
+        
+    
+        var popup_a6eab57711b50808d1694cd7e59e3dac = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1916b17f6984b6e8d375c844b3ff0830 = $(`<div id="html_1916b17f6984b6e8d375c844b3ff0830" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Brussel<br>     <b>Nodes:</b> 4<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/BE.csv     </div>`)[0];
+                popup_a6eab57711b50808d1694cd7e59e3dac.setContent(html_1916b17f6984b6e8d375c844b3ff0830);
+            
+        
+
+        marker_0b3e5ce36179502798c5c54b299d0f31.bindPopup(popup_a6eab57711b50808d1694cd7e59e3dac)
+        ;
+
+        
+    
+    
+            marker_0b3e5ce36179502798c5c54b299d0f31.bindTooltip(
+                `<div>
+                     Brussel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e65b5745093a9b0982e44e4b5d00e85b = L.marker(
+                [52.52, 13.405],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_262aa7a102dbd58c85dbcf156703449c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e65b5745093a9b0982e44e4b5d00e85b.setIcon(icon_262aa7a102dbd58c85dbcf156703449c);
+        
+    
+        var popup_28dffe98ebaf62058d42bc7220bd7199 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a920c681b4162157d7a894639063a6ad = $(`<div id="html_a920c681b4162157d7a894639063a6ad" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Berlin<br>     <b>Nodes:</b> 2<br>     <b>GPUs per Node:</b> 6<br>     <b>Carbon Intensity Trace:</b> ./carbon/DE.csv     </div>`)[0];
+                popup_28dffe98ebaf62058d42bc7220bd7199.setContent(html_a920c681b4162157d7a894639063a6ad);
+            
+        
+
+        marker_e65b5745093a9b0982e44e4b5d00e85b.bindPopup(popup_28dffe98ebaf62058d42bc7220bd7199)
+        ;
+
+        
+    
+    
+            marker_e65b5745093a9b0982e44e4b5d00e85b.bindTooltip(
+                `<div>
+                     Berlin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6f1a4c88a0b0ae8c6e9ee12316691c3 = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_cf97808daea51efe4037aa805bf6cbef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d6f1a4c88a0b0ae8c6e9ee12316691c3.setIcon(icon_cf97808daea51efe4037aa805bf6cbef);
+        
+    
+        var popup_04c519bb26bcca32de9c170b3a1857b3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5cea5f227d26878382f49dffeef6407c = $(`<div id="html_5cea5f227d26878382f49dffeef6407c" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Rome<br>     <b>Nodes:</b> 4<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/IT-CSO.csv     </div>`)[0];
+                popup_04c519bb26bcca32de9c170b3a1857b3.setContent(html_5cea5f227d26878382f49dffeef6407c);
+            
+        
+
+        marker_d6f1a4c88a0b0ae8c6e9ee12316691c3.bindPopup(popup_04c519bb26bcca32de9c170b3a1857b3)
+        ;
+
+        
+    
+    
+            marker_d6f1a4c88a0b0ae8c6e9ee12316691c3.bindTooltip(
+                `<div>
+                     Rome
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a739431be1ea2572852eb283a1f0094f = L.marker(
+                [52.2297, 21.0122],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_b955f93e32fe7f4b075672b6c8f54a3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a739431be1ea2572852eb283a1f0094f.setIcon(icon_b955f93e32fe7f4b075672b6c8f54a3d);
+        
+    
+        var popup_53ce460b34370f166428ca4042d32baf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_94c02c81ae41cdb909d7aa68ce4ffaaf = $(`<div id="html_94c02c81ae41cdb909d7aa68ce4ffaaf" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Warsaw<br>     <b>Nodes:</b> 6<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/PL.csv     </div>`)[0];
+                popup_53ce460b34370f166428ca4042d32baf.setContent(html_94c02c81ae41cdb909d7aa68ce4ffaaf);
+            
+        
+
+        marker_a739431be1ea2572852eb283a1f0094f.bindPopup(popup_53ce460b34370f166428ca4042d32baf)
+        ;
+
+        
+    
+    
+            marker_a739431be1ea2572852eb283a1f0094f.bindTooltip(
+                `<div>
+                     Warsaw
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_960075925aa69eddec973fc1e0cc12e0 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_94c2cff97da7ae21fc45fc02549790c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_960075925aa69eddec973fc1e0cc12e0.setIcon(icon_94c2cff97da7ae21fc45fc02549790c2);
+        
+    
+        var popup_a31a278e8cda4876960b9c0a6d6d69e4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_171f8b6e30a13c1ee0cf666de432c72e = $(`<div id="html_171f8b6e30a13c1ee0cf666de432c72e" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Paris<br>     <b>Nodes:</b> 7<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/FR.csv     </div>`)[0];
+                popup_a31a278e8cda4876960b9c0a6d6d69e4.setContent(html_171f8b6e30a13c1ee0cf666de432c72e);
+            
+        
+
+        marker_960075925aa69eddec973fc1e0cc12e0.bindPopup(popup_a31a278e8cda4876960b9c0a6d6d69e4)
+        ;
+
+        
+    
+    
+            marker_960075925aa69eddec973fc1e0cc12e0.bindTooltip(
+                `<div>
+                     Paris
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48be2155da45af57df06464a4db0f2ba = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_68f77b52437c6e93c79155624f68ad3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48be2155da45af57df06464a4db0f2ba.setIcon(icon_68f77b52437c6e93c79155624f68ad3a);
+        
+    
+        var popup_5586b1dddb6ec3cefefa39888b4ba1ed = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dc896b0b5c5d903171fab436067b6d66 = $(`<div id="html_dc896b0b5c5d903171fab436067b6d66" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> London<br>     <b>Nodes:</b> 8<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/GB.csv     </div>`)[0];
+                popup_5586b1dddb6ec3cefefa39888b4ba1ed.setContent(html_dc896b0b5c5d903171fab436067b6d66);
+            
+        
+
+        marker_48be2155da45af57df06464a4db0f2ba.bindPopup(popup_5586b1dddb6ec3cefefa39888b4ba1ed)
+        ;
+
+        
+    
+    
+            marker_48be2155da45af57df06464a4db0f2ba.bindTooltip(
+                `<div>
+                     London
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77384083674ba1a79b17179e8c22753e = L.marker(
+                [55.6761, 12.5683],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_f3d9b91a53305764c26a35aba738bdeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_77384083674ba1a79b17179e8c22753e.setIcon(icon_f3d9b91a53305764c26a35aba738bdeb);
+        
+    
+        var popup_a6023b4162ff9ab8d1b1c5f525fe7b0a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_87bb1a8e2964c5277fbd659b85089a1c = $(`<div id="html_87bb1a8e2964c5277fbd659b85089a1c" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Copenhagen<br>     <b>Nodes:</b> 2<br>     <b>GPUs per Node:</b> 6<br>     <b>Carbon Intensity Trace:</b> ./carbon/DK-DK2.csv     </div>`)[0];
+                popup_a6023b4162ff9ab8d1b1c5f525fe7b0a.setContent(html_87bb1a8e2964c5277fbd659b85089a1c);
+            
+        
+
+        marker_77384083674ba1a79b17179e8c22753e.bindPopup(popup_a6023b4162ff9ab8d1b1c5f525fe7b0a)
+        ;
+
+        
+    
+    
+            marker_77384083674ba1a79b17179e8c22753e.bindTooltip(
+                `<div>
+                     Copenhagen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1ce1ebd8aacc789ad1c71c30ef3b804 = L.marker(
+                [59.9139, 10.7522],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_ce393a1aaa6309a63418f72654aca459 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1ce1ebd8aacc789ad1c71c30ef3b804.setIcon(icon_ce393a1aaa6309a63418f72654aca459);
+        
+    
+        var popup_9348d06cb949459fb5c9bcdcef611d10 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_20a62ada18f17c8d2dcab0d6a7076c55 = $(`<div id="html_20a62ada18f17c8d2dcab0d6a7076c55" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Oslo<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 6<br>     <b>Carbon Intensity Trace:</b> ./carbon/NO-NO1.csv     </div>`)[0];
+                popup_9348d06cb949459fb5c9bcdcef611d10.setContent(html_20a62ada18f17c8d2dcab0d6a7076c55);
+            
+        
+
+        marker_a1ce1ebd8aacc789ad1c71c30ef3b804.bindPopup(popup_9348d06cb949459fb5c9bcdcef611d10)
+        ;
+
+        
+    
+    
+            marker_a1ce1ebd8aacc789ad1c71c30ef3b804.bindTooltip(
+                `<div>
+                     Oslo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e58fb4e751f20e813f53ce5ff5f1e53 = L.marker(
+                [60.3913, 5.3221],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_fcdd0e762cb5fd494d4ea776314a0eaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e58fb4e751f20e813f53ce5ff5f1e53.setIcon(icon_fcdd0e762cb5fd494d4ea776314a0eaf);
+        
+    
+        var popup_271ba3568faf972f3955beee871bea67 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9b1eaac9abb647819d6cc96ebc9d8aea = $(`<div id="html_9b1eaac9abb647819d6cc96ebc9d8aea" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Bergen<br>     <b>Nodes:</b> 3<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/NO-NO5.csv     </div>`)[0];
+                popup_271ba3568faf972f3955beee871bea67.setContent(html_9b1eaac9abb647819d6cc96ebc9d8aea);
+            
+        
+
+        marker_2e58fb4e751f20e813f53ce5ff5f1e53.bindPopup(popup_271ba3568faf972f3955beee871bea67)
+        ;
+
+        
+    
+    
+            marker_2e58fb4e751f20e813f53ce5ff5f1e53.bindTooltip(
+                `<div>
+                     Bergen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8a4e043a617c8013865c7d176c693ea = L.marker(
+                [47.4979, 19.0402],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_0cf270392df2e17447d4e004df11ce26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8a4e043a617c8013865c7d176c693ea.setIcon(icon_0cf270392df2e17447d4e004df11ce26);
+        
+    
+        var popup_c809d5de7d3f51c2595389b26f1c2cbd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a3a0b353053a8ecfc2ee73588bab6b51 = $(`<div id="html_a3a0b353053a8ecfc2ee73588bab6b51" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Budapest<br>     <b>Nodes:</b> 2<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/HU.csv     </div>`)[0];
+                popup_c809d5de7d3f51c2595389b26f1c2cbd.setContent(html_a3a0b353053a8ecfc2ee73588bab6b51);
+            
+        
+
+        marker_f8a4e043a617c8013865c7d176c693ea.bindPopup(popup_c809d5de7d3f51c2595389b26f1c2cbd)
+        ;
+
+        
+    
+    
+            marker_f8a4e043a617c8013865c7d176c693ea.bindTooltip(
+                `<div>
+                     Budapest
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d62eada1793c6a12e97c6126be316e4e = L.marker(
+                [65.0121, 25.4651],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_db2b7d87bb4df84626c20cdf8860a632 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d62eada1793c6a12e97c6126be316e4e.setIcon(icon_db2b7d87bb4df84626c20cdf8860a632);
+        
+    
+        var popup_6c59a85fd37d26f56739f2c4ff045ec4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3eabdb98a53098817f261bafce706975 = $(`<div id="html_3eabdb98a53098817f261bafce706975" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Oulu<br>     <b>Nodes:</b> 4<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/FI.csv     </div>`)[0];
+                popup_6c59a85fd37d26f56739f2c4ff045ec4.setContent(html_3eabdb98a53098817f261bafce706975);
+            
+        
+
+        marker_d62eada1793c6a12e97c6126be316e4e.bindPopup(popup_6c59a85fd37d26f56739f2c4ff045ec4)
+        ;
+
+        
+    
+    
+            marker_d62eada1793c6a12e97c6126be316e4e.bindTooltip(
+                `<div>
+                     Oulu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc696cdebd7d2888354edbe8fdc7a804 = L.marker(
+                [37.9838, 23.7275],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_13e3d3da04f7bf842b596c223ff80805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc696cdebd7d2888354edbe8fdc7a804.setIcon(icon_13e3d3da04f7bf842b596c223ff80805);
+        
+    
+        var popup_3222709c99e19873b7f338d123a5aeb2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_31895f4954e0b554d0323560d7e3e27b = $(`<div id="html_31895f4954e0b554d0323560d7e3e27b" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Athens<br>     <b>Nodes:</b> 4<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/GR.csv     </div>`)[0];
+                popup_3222709c99e19873b7f338d123a5aeb2.setContent(html_31895f4954e0b554d0323560d7e3e27b);
+            
+        
+
+        marker_cc696cdebd7d2888354edbe8fdc7a804.bindPopup(popup_3222709c99e19873b7f338d123a5aeb2)
+        ;
+
+        
+    
+    
+            marker_cc696cdebd7d2888354edbe8fdc7a804.bindTooltip(
+                `<div>
+                     Athens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69d231545f7c58aa5ea517d5aacbc256 = L.marker(
+                [54.6872, 25.2797],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_a5fc8c2c4fbf36e18af6bcd3e44c00e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69d231545f7c58aa5ea517d5aacbc256.setIcon(icon_a5fc8c2c4fbf36e18af6bcd3e44c00e5);
+        
+    
+        var popup_64c13a7a12215a521ff44d457d118980 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_92aa8369f196fe7950d699120b16a2d0 = $(`<div id="html_92aa8369f196fe7950d699120b16a2d0" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Vilnius<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/LT.csv     </div>`)[0];
+                popup_64c13a7a12215a521ff44d457d118980.setContent(html_92aa8369f196fe7950d699120b16a2d0);
+            
+        
+
+        marker_69d231545f7c58aa5ea517d5aacbc256.bindPopup(popup_64c13a7a12215a521ff44d457d118980)
+        ;
+
+        
+    
+    
+            marker_69d231545f7c58aa5ea517d5aacbc256.bindTooltip(
+                `<div>
+                     Vilnius
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_367dc5936390223056cab4658dd016a4 = L.marker(
+                [56.9496, 24.1052],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_e993816d6a0b160ff1c3422d1bf935e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_367dc5936390223056cab4658dd016a4.setIcon(icon_e993816d6a0b160ff1c3422d1bf935e8);
+        
+    
+        var popup_273617ad850dfd0a538da8f4c2900f78 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7b8c3492a3312c37cea01899305edae3 = $(`<div id="html_7b8c3492a3312c37cea01899305edae3" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Riga<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/LV.csv     </div>`)[0];
+                popup_273617ad850dfd0a538da8f4c2900f78.setContent(html_7b8c3492a3312c37cea01899305edae3);
+            
+        
+
+        marker_367dc5936390223056cab4658dd016a4.bindPopup(popup_273617ad850dfd0a538da8f4c2900f78)
+        ;
+
+        
+    
+    
+            marker_367dc5936390223056cab4658dd016a4.bindTooltip(
+                `<div>
+                     Riga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94b7aa157e82ff08e0972774c2341a88 = L.marker(
+                [47.141, 9.5209],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_0e765ef00b0ad14ccfda3049fb1b2301 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94b7aa157e82ff08e0972774c2341a88.setIcon(icon_0e765ef00b0ad14ccfda3049fb1b2301);
+        
+    
+        var popup_f52bb84c9ae7f66cfa3903197dbd22a0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_18858f205098f8a3f74fa4ba0814169b = $(`<div id="html_18858f205098f8a3f74fa4ba0814169b" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Vaduz<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 1<br>     <b>Carbon Intensity Trace:</b> ./carbon/LI.csv     </div>`)[0];
+                popup_f52bb84c9ae7f66cfa3903197dbd22a0.setContent(html_18858f205098f8a3f74fa4ba0814169b);
+            
+        
+
+        marker_94b7aa157e82ff08e0972774c2341a88.bindPopup(popup_f52bb84c9ae7f66cfa3903197dbd22a0)
+        ;
+
+        
+    
+    
+            marker_94b7aa157e82ff08e0972774c2341a88.bindTooltip(
+                `<div>
+                     Vaduz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_159a6d026bb01ea946a3112580ebbc2c = L.marker(
+                [49.6117, 6.1319],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_30d8cc5246f70530e69b323f92024eba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_159a6d026bb01ea946a3112580ebbc2c.setIcon(icon_30d8cc5246f70530e69b323f92024eba);
+        
+    
+        var popup_3b8f19c1c41848a066b66a05e571c252 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7ac3bb13a36c627ad95b17dc393ff1ac = $(`<div id="html_7ac3bb13a36c627ad95b17dc393ff1ac" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Luxembourg City<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 1<br>     <b>Carbon Intensity Trace:</b> ./carbon/LU.csv     </div>`)[0];
+                popup_3b8f19c1c41848a066b66a05e571c252.setContent(html_7ac3bb13a36c627ad95b17dc393ff1ac);
+            
+        
+
+        marker_159a6d026bb01ea946a3112580ebbc2c.bindPopup(popup_3b8f19c1c41848a066b66a05e571c252)
+        ;
+
+        
+    
+    
+            marker_159a6d026bb01ea946a3112580ebbc2c.bindTooltip(
+                `<div>
+                     Luxembourg City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_189a8b2649a9fe5ff2a982d26a40f57d = L.marker(
+                [59.437, 24.7535],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_32a2d150046e35f996a7ebe6a26528b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_189a8b2649a9fe5ff2a982d26a40f57d.setIcon(icon_32a2d150046e35f996a7ebe6a26528b5);
+        
+    
+        var popup_76703e7fb768d6b48ea6b46d88da9c94 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_962a9b58d96eebfa974dfb0f3267adec = $(`<div id="html_962a9b58d96eebfa974dfb0f3267adec" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Tallinn<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 6<br>     <b>Carbon Intensity Trace:</b> ./carbon/EE.csv     </div>`)[0];
+                popup_76703e7fb768d6b48ea6b46d88da9c94.setContent(html_962a9b58d96eebfa974dfb0f3267adec);
+            
+        
+
+        marker_189a8b2649a9fe5ff2a982d26a40f57d.bindPopup(popup_76703e7fb768d6b48ea6b46d88da9c94)
+        ;
+
+        
+    
+    
+            marker_189a8b2649a9fe5ff2a982d26a40f57d.bindTooltip(
+                `<div>
+                     Tallinn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e31863764d4a5f1f65131202ada9032 = L.marker(
+                [45.815, 15.9819],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_1655ea6c9920a614780bb37f0ed499aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e31863764d4a5f1f65131202ada9032.setIcon(icon_1655ea6c9920a614780bb37f0ed499aa);
+        
+    
+        var popup_cc804eda02231729ae3f9a11a1502dab = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c04697e6cac83538fd13b7271d47cdf7 = $(`<div id="html_c04697e6cac83538fd13b7271d47cdf7" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Zagreb<br>     <b>Nodes:</b> 2<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/HR.csv     </div>`)[0];
+                popup_cc804eda02231729ae3f9a11a1502dab.setContent(html_c04697e6cac83538fd13b7271d47cdf7);
+            
+        
+
+        marker_2e31863764d4a5f1f65131202ada9032.bindPopup(popup_cc804eda02231729ae3f9a11a1502dab)
+        ;
+
+        
+    
+    
+            marker_2e31863764d4a5f1f65131202ada9032.bindTooltip(
+                `<div>
+                     Zagreb
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffa44548edf6e1bb7b8dbc600ee6b2be = L.marker(
+                [50.0755, 14.4378],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_b180dd2203f95a8240fb1fc151f28a19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffa44548edf6e1bb7b8dbc600ee6b2be.setIcon(icon_b180dd2203f95a8240fb1fc151f28a19);
+        
+    
+        var popup_7f95a710522d05f8b8b0f1cba49d78cb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d6f33b86875c4f638ba2f0e2ff7a861f = $(`<div id="html_d6f33b86875c4f638ba2f0e2ff7a861f" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Prague<br>     <b>Nodes:</b> 5<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/CZ.csv     </div>`)[0];
+                popup_7f95a710522d05f8b8b0f1cba49d78cb.setContent(html_d6f33b86875c4f638ba2f0e2ff7a861f);
+            
+        
+
+        marker_ffa44548edf6e1bb7b8dbc600ee6b2be.bindPopup(popup_7f95a710522d05f8b8b0f1cba49d78cb)
+        ;
+
+        
+    
+    
+            marker_ffa44548edf6e1bb7b8dbc600ee6b2be.bindTooltip(
+                `<div>
+                     Prague
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdced005394ea7d701a22181688f8717 = L.marker(
+                [42.6977, 23.3219],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_efcaa1f9636686f21de50dbe9794335f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bdced005394ea7d701a22181688f8717.setIcon(icon_efcaa1f9636686f21de50dbe9794335f);
+        
+    
+        var popup_ebd1b61e7478d811c51fda41244f9b89 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f070a80a5aaa872db0f3b8a4f4f5aa19 = $(`<div id="html_f070a80a5aaa872db0f3b8a4f4f5aa19" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Sofia<br>     <b>Nodes:</b> 5<br>     <b>GPUs per Node:</b> 1<br>     <b>Carbon Intensity Trace:</b> ./carbon/BG.csv     </div>`)[0];
+                popup_ebd1b61e7478d811c51fda41244f9b89.setContent(html_f070a80a5aaa872db0f3b8a4f4f5aa19);
+            
+        
+
+        marker_bdced005394ea7d701a22181688f8717.bindPopup(popup_ebd1b61e7478d811c51fda41244f9b89)
+        ;
+
+        
+    
+    
+            marker_bdced005394ea7d701a22181688f8717.bindTooltip(
+                `<div>
+                     Sofia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00cd3c234fd1498e80f77cf24e2bd49b = L.marker(
+                [47.3769, 8.5417],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_e8f6cdcc07a5f7f757f1008402930c26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00cd3c234fd1498e80f77cf24e2bd49b.setIcon(icon_e8f6cdcc07a5f7f757f1008402930c26);
+        
+    
+        var popup_c2f472c15752d2edb8c90f491ac0f099 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4c91ec86e9c97b6b3e4b52ef9b634aa1 = $(`<div id="html_4c91ec86e9c97b6b3e4b52ef9b634aa1" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Zurich<br>     <b>Nodes:</b> 2<br>     <b>GPUs per Node:</b> 1<br>     <b>Carbon Intensity Trace:</b> ./carbon/CH.csv     </div>`)[0];
+                popup_c2f472c15752d2edb8c90f491ac0f099.setContent(html_4c91ec86e9c97b6b3e4b52ef9b634aa1);
+            
+        
+
+        marker_00cd3c234fd1498e80f77cf24e2bd49b.bindPopup(popup_c2f472c15752d2edb8c90f491ac0f099)
+        ;
+
+        
+    
+    
+            marker_00cd3c234fd1498e80f77cf24e2bd49b.bindTooltip(
+                `<div>
+                     Zurich
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84be4413ccaa750e3c1b208f7c4dbf28 = L.marker(
+                [35.1856, 33.3823],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_f24c315ade6d70b9a152fa5a629c57c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84be4413ccaa750e3c1b208f7c4dbf28.setIcon(icon_f24c315ade6d70b9a152fa5a629c57c6);
+        
+    
+        var popup_c4affc1378fc9e7940c080d84bfc15d6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9742f16c86f5cb1ce5c552206f61f8ca = $(`<div id="html_9742f16c86f5cb1ce5c552206f61f8ca" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Nicosia<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 1<br>     <b>Carbon Intensity Trace:</b> ./carbon/CY.csv     </div>`)[0];
+                popup_c4affc1378fc9e7940c080d84bfc15d6.setContent(html_9742f16c86f5cb1ce5c552206f61f8ca);
+            
+        
+
+        marker_84be4413ccaa750e3c1b208f7c4dbf28.bindPopup(popup_c4affc1378fc9e7940c080d84bfc15d6)
+        ;
+
+        
+    
+    
+            marker_84be4413ccaa750e3c1b208f7c4dbf28.bindTooltip(
+                `<div>
+                     Nicosia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93b96034407df42b47473f91c55d8656 = L.marker(
+                [48.2082, 16.3738],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_57486daa141f32316a956b972acc64e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93b96034407df42b47473f91c55d8656.setIcon(icon_57486daa141f32316a956b972acc64e4);
+        
+    
+        var popup_ae8f1b53a5387aa1feb79f05265e065d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8c444ae03c433ab43047695402858f5b = $(`<div id="html_8c444ae03c433ab43047695402858f5b" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Vienna<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 6<br>     <b>Carbon Intensity Trace:</b> ./carbon/AT.csv     </div>`)[0];
+                popup_ae8f1b53a5387aa1feb79f05265e065d.setContent(html_8c444ae03c433ab43047695402858f5b);
+            
+        
+
+        marker_93b96034407df42b47473f91c55d8656.bindPopup(popup_ae8f1b53a5387aa1feb79f05265e065d)
+        ;
+
+        
+    
+    
+            marker_93b96034407df42b47473f91c55d8656.bindTooltip(
+                `<div>
+                     Vienna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02388d73722de563a4ce8e720ab4d42c = L.marker(
+                [64.1466, -21.9426],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_485a1e26656ee439b898de1f35a97a9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02388d73722de563a4ce8e720ab4d42c.setIcon(icon_485a1e26656ee439b898de1f35a97a9c);
+        
+    
+        var popup_fac058bdb055ab9681f2968211718d2a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5dae6bbaa756b219e888062d37dec503 = $(`<div id="html_5dae6bbaa756b219e888062d37dec503" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Reykjavik<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/IS.csv     </div>`)[0];
+                popup_fac058bdb055ab9681f2968211718d2a.setContent(html_5dae6bbaa756b219e888062d37dec503);
+            
+        
+
+        marker_02388d73722de563a4ce8e720ab4d42c.bindPopup(popup_fac058bdb055ab9681f2968211718d2a)
+        ;
+
+        
+    
+    
+            marker_02388d73722de563a4ce8e720ab4d42c.bindTooltip(
+                `<div>
+                     Reykjavik
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d74e62e444fca8bd5b8b0a03507e615 = L.marker(
+                [48.1486, 17.1077],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_16d81986ce99e5a9a6212d27c65d7c55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d74e62e444fca8bd5b8b0a03507e615.setIcon(icon_16d81986ce99e5a9a6212d27c65d7c55);
+        
+    
+        var popup_e3cc3a5137887736a6fd7d7bc718c356 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_eb289887e797d1f56bebb2daa628cfc8 = $(`<div id="html_eb289887e797d1f56bebb2daa628cfc8" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Bratislava<br>     <b>Nodes:</b> 4<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./cognit/carbon/SK.csv     </div>`)[0];
+                popup_e3cc3a5137887736a6fd7d7bc718c356.setContent(html_eb289887e797d1f56bebb2daa628cfc8);
+            
+        
+
+        marker_3d74e62e444fca8bd5b8b0a03507e615.bindPopup(popup_e3cc3a5137887736a6fd7d7bc718c356)
+        ;
+
+        
+    
+    
+            marker_3d74e62e444fca8bd5b8b0a03507e615.bindTooltip(
+                `<div>
+                     Bratislava
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87bbca14a75180ed94e50e50f7aea147 = L.marker(
+                [46.0569, 14.5058],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_73885b11962dfd49dc362164f9a60d23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87bbca14a75180ed94e50e50f7aea147.setIcon(icon_73885b11962dfd49dc362164f9a60d23);
+        
+    
+        var popup_6bb306570407bcc7f6f122df16a8cd19 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_65829cf2ce1f79a95b5c2a964f916086 = $(`<div id="html_65829cf2ce1f79a95b5c2a964f916086" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Ljubljana<br>     <b>Nodes:</b> 4<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/SI.csv     </div>`)[0];
+                popup_6bb306570407bcc7f6f122df16a8cd19.setContent(html_65829cf2ce1f79a95b5c2a964f916086);
+            
+        
+
+        marker_87bbca14a75180ed94e50e50f7aea147.bindPopup(popup_6bb306570407bcc7f6f122df16a8cd19)
+        ;
+
+        
+    
+    
+            marker_87bbca14a75180ed94e50e50f7aea147.bindTooltip(
+                `<div>
+                     Ljubljana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cb26130a7edc8a80dd579dda1d9aa42 = L.marker(
+                [35.8989, 14.5146],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_ba6c079470832efecfcc587fd6b70b5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9cb26130a7edc8a80dd579dda1d9aa42.setIcon(icon_ba6c079470832efecfcc587fd6b70b5c);
+        
+    
+        var popup_f0900577ebb14c2aaa0080d32042cd3f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d703145208615975bfc9cd47246f2630 = $(`<div id="html_d703145208615975bfc9cd47246f2630" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Valletta<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 1<br>     <b>Carbon Intensity Trace:</b> ./carbon/MT.csv     </div>`)[0];
+                popup_f0900577ebb14c2aaa0080d32042cd3f.setContent(html_d703145208615975bfc9cd47246f2630);
+            
+        
+
+        marker_9cb26130a7edc8a80dd579dda1d9aa42.bindPopup(popup_f0900577ebb14c2aaa0080d32042cd3f)
+        ;
+
+        
+    
+    
+            marker_9cb26130a7edc8a80dd579dda1d9aa42.bindTooltip(
+                `<div>
+                     Valletta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_033501aa26182174a7036da171a93612 = L.marker(
+                [44.4268, 26.1025],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_5aca0844865045971fdfec9e7c319854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_033501aa26182174a7036da171a93612.setIcon(icon_5aca0844865045971fdfec9e7c319854);
+        
+    
+        var popup_f52f0c472958d7c4832a674e94262ac9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_970c9666031bda6d5184d331aff6abd8 = $(`<div id="html_970c9666031bda6d5184d331aff6abd8" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Bucharest<br>     <b>Nodes:</b> 4<br>     <b>GPUs per Node:</b> 1<br>     <b>Carbon Intensity Trace:</b> ./carbon/RO.csv     </div>`)[0];
+                popup_f52f0c472958d7c4832a674e94262ac9.setContent(html_970c9666031bda6d5184d331aff6abd8);
+            
+        
+
+        marker_033501aa26182174a7036da171a93612.bindPopup(popup_f52f0c472958d7c4832a674e94262ac9)
+        ;
+
+        
+    
+    
+            marker_033501aa26182174a7036da171a93612.bindTooltip(
+                `<div>
+                     Bucharest
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4eb596b126dd2b0353531ca2fcc8d522 = L.marker(
+                [53.3498, -6.2603],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_d36933ea1edfa48edd793963f456e756 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4eb596b126dd2b0353531ca2fcc8d522.setIcon(icon_d36933ea1edfa48edd793963f456e756);
+        
+    
+        var popup_a95a1fa8e6a7f5f7f99c8919097a1d77 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_62970d1dfb564667d5830892995293e8 = $(`<div id="html_62970d1dfb564667d5830892995293e8" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Dublin<br>     <b>Nodes:</b> 4<br>     <b>GPUs per Node:</b> 2<br>     <b>Carbon Intensity Trace:</b> ./carbon/IE.csv     </div>`)[0];
+                popup_a95a1fa8e6a7f5f7f99c8919097a1d77.setContent(html_62970d1dfb564667d5830892995293e8);
+            
+        
+
+        marker_4eb596b126dd2b0353531ca2fcc8d522.bindPopup(popup_a95a1fa8e6a7f5f7f99c8919097a1d77)
+        ;
+
+        
+    
+    
+            marker_4eb596b126dd2b0353531ca2fcc8d522.bindTooltip(
+                `<div>
+                     Dublin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_653d7929632b8f18e6ab4a6efa2d6dbe = L.marker(
+                [63.4305, 10.3951],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_6f386f47dc452b468cf86e94a909e85e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_653d7929632b8f18e6ab4a6efa2d6dbe.setIcon(icon_6f386f47dc452b468cf86e94a909e85e);
+        
+    
+        var popup_fadb22770f66166dd37ac944c9303f74 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_86031c35f2838189767a909f524cae6c = $(`<div id="html_86031c35f2838189767a909f524cae6c" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Trondheim<br>     <b>Nodes:</b> 4<br>     <b>GPUs per Node:</b> 6<br>     <b>Carbon Intensity Trace:</b> ./carbon/NO-NO3.csv     </div>`)[0];
+                popup_fadb22770f66166dd37ac944c9303f74.setContent(html_86031c35f2838189767a909f524cae6c);
+            
+        
+
+        marker_653d7929632b8f18e6ab4a6efa2d6dbe.bindPopup(popup_fadb22770f66166dd37ac944c9303f74)
+        ;
+
+        
+    
+    
+            marker_653d7929632b8f18e6ab4a6efa2d6dbe.bindTooltip(
+                `<div>
+                     Trondheim
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab11d30c9f30c29ddd0aaa3b533a9a3b = L.marker(
+                [69.6492, 18.9553],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_c2da361ad7ae5118e6951ed9ab0295ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab11d30c9f30c29ddd0aaa3b533a9a3b.setIcon(icon_c2da361ad7ae5118e6951ed9ab0295ac);
+        
+    
+        var popup_f65f369e31e6b3cc7d2969d27a130264 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b3263c3c215680b4eee35619f8806cfc = $(`<div id="html_b3263c3c215680b4eee35619f8806cfc" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Tromso<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/NO-NO4.csv     </div>`)[0];
+                popup_f65f369e31e6b3cc7d2969d27a130264.setContent(html_b3263c3c215680b4eee35619f8806cfc);
+            
+        
+
+        marker_ab11d30c9f30c29ddd0aaa3b533a9a3b.bindPopup(popup_f65f369e31e6b3cc7d2969d27a130264)
+        ;
+
+        
+    
+    
+            marker_ab11d30c9f30c29ddd0aaa3b533a9a3b.bindTooltip(
+                `<div>
+                     Tromso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b27e3d9451bf82a5b42910a4c1da701b = L.marker(
+                [58.1599, 8.0182],
+                {}
+            ).addTo(map_04f5fbd501afcdbc79199fc96d04160d);
+        
+    
+            var icon_def2fca928aaa057808dbc0df9e0f439 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b27e3d9451bf82a5b42910a4c1da701b.setIcon(icon_def2fca928aaa057808dbc0df9e0f439);
+        
+    
+        var popup_54ba4715c0e2538f5ecd3adb388729cc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3ae4fc87b162dfd25383262f4b41d1f9 = $(`<div id="html_3ae4fc87b162dfd25383262f4b41d1f9" style="width: 100.0%; height: 100.0%;">     <b>Cluster Name:</b> Kristiansand<br>     <b>Nodes:</b> 1<br>     <b>GPUs per Node:</b> 4<br>     <b>Carbon Intensity Trace:</b> ./carbon/NO-NO2.csv     </div>`)[0];
+                popup_54ba4715c0e2538f5ecd3adb388729cc.setContent(html_3ae4fc87b162dfd25383262f4b41d1f9);
+            
+        
+
+        marker_b27e3d9451bf82a5b42910a4c1da701b.bindPopup(popup_54ba4715c0e2538f5ecd3adb388729cc)
+        ;
+
+        
+    
+    
+            marker_b27e3d9451bf82a5b42910a4c1da701b.bindTooltip(
+                `<div>
+                     Kristiansand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

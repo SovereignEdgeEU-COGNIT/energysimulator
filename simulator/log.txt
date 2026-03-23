@@ -1,0 +1,83 @@
+EdgeCluster <Umea> created with 1 nodes and 1 GPUs per node
+Adding process: test_process_0 Deadline: 86400 Length: 8010
+Cluster: Umea Tick: 46800 Available GPUs: 1 Benefit: 249893043.58303177
+Planned exectim, next 24h: 8010
+Adding process: test_process_1 Deadline: 86400 Length: 1128
+Cluster: Umea Tick: 28740 Available GPUs: 1 Benefit: 99834366.61145574
+Planned exectim, next 24h: 9138
+Adding process: test_process_2 Deadline: 86400 Length: 7630
+Cluster: Umea Tick: 54840 Available GPUs: 1 Benefit: 244101449.17299998
+Planned exectim, next 24h: 16768
+Adding process: test_process_3 Deadline: 86400 Length: 165
+Cluster: Umea Tick: 46620 Available GPUs: 1 Benefit: 4752082.161845398
+Planned exectim, next 24h: 16933
+Adding process: test_process_0 Deadline: 86400 Length: 8010
+Cluster: Umea Tick: 7200 Available GPUs: 1 Benefit: 288495645.2621669
+Planned exectim, next 24h: 24943
+Adding process: test_process_1 Deadline: 86400 Length: 1128
+Cluster: Umea Tick: 27600 Available GPUs: 1 Benefit: 104691760.94521126
+Planned exectim, next 24h: 26071
+Adding process: test_process_2 Deadline: 86400 Length: 7630
+Cluster: Umea Tick: 15240 Available GPUs: 1 Benefit: 265748501.29757777
+Planned exectim, next 24h: 33701
+Adding process: test_process_3 Deadline: 86400 Length: 165
+Cluster: Umea Tick: 46440 Available GPUs: 1 Benefit: 4788403.037798442
+Planned exectim, next 24h: 33866
+Adding process: test_process_4 Deadline: 86400 Length: 61
+Cluster: Umea Tick: 46320 Available GPUs: 1 Benefit: 2232671.90272426
+Planned exectim, next 24h: 33927
+Adding process: test_process_5 Deadline: 86400 Length: 669
+Cluster: Umea Tick: 45600 Available GPUs: 1 Benefit: 24131514.210312027
+Planned exectim, next 24h: 34596
+Adding process: test_process_6 Deadline: 86400 Length: 255
+Cluster: Umea Tick: 27300 Available GPUs: 1 Benefit: 22316885.531430487
+Planned exectim, next 24h: 34851
+Adding process: test_process_7 Deadline: 86400 Length: 81
+Cluster: Umea Tick: 45480 Available GPUs: 1 Benefit: 7238719.571447978
+Planned exectim, next 24h: 34932
+Adding process: test_process_8 Deadline: 86400 Length: 2033
+Cluster: Umea Tick: 43440 Available GPUs: 1 Benefit: 73161903.66522332
+Planned exectim, next 24h: 36965
+Adding process: test_process_9 Deadline: 86400 Length: 1446
+Cluster: Umea Tick: 25800 Available GPUs: 1 Benefit: 57685396.71458414
+Planned exectim, next 24h: 38411
+Adding process: test_process_10 Deadline: 86400 Length: 34
+Cluster: Umea Tick: 25740 Available GPUs: 1 Benefit: 1420366.0115014722
+Planned exectim, next 24h: 38445
+Adding process: test_process_11 Deadline: 86400 Length: 12312
+Cluster: Umea Tick: 29880 Available GPUs: 1 Benefit: 1149629762.470125
+Planned exectim, next 24h: 50757
+Adding process: test_process_12 Deadline: 86400 Length: 33
+Cluster: Umea Tick: 25680 Available GPUs: 1 Benefit: 881451.6273819439
+Planned exectim, next 24h: 50790
+Adding process: test_process_13 Deadline: 86400 Length: 6004
+Cluster: Umea Tick: 86340 Available GPUs: 1 Benefit: 544375458.0548947
+Planned exectim, next 24h: 56794
+Adding process: test_process_14 Deadline: 86400 Length: 2977
+Cluster: Umea Tick: 62520 Available GPUs: 1 Benefit: 107776712.25441413
+Planned exectim, next 24h: 59771
+Adding process: test_process_15 Deadline: 86400 Length: 48
+Cluster: Umea Tick: 25620 Available GPUs: 1 Benefit: 1518380.0846303578
+Planned exectim, next 24h: 59819
+Adding process: test_process_16 Deadline: 86400 Length: 5764
+Cluster: Umea Tick: 1380 Available GPUs: 1 Benefit: 725783356.8339791
+Planned exectim, next 24h: 65583
+Adding process: test_process_17 Deadline: 86400 Length: 672
+Cluster: Umea Tick: 42240 Available GPUs: 1 Benefit: 109004456.02111112
+Planned exectim, next 24h: 66255
+Adding process: test_process_18 Deadline: 86400 Length: 1521
+Cluster: Umea Tick: 24060 Available GPUs: 1 Benefit: 35063481.02017147
+Planned exectim, next 24h: 67776
+Adding process: test_process_19 Deadline: 86400 Length: 46
+Cluster: Umea Tick: 43380 Available GPUs: 1 Benefit: 831772.8842541665
+Planned exectim, next 24h: 67822
+Adding process: test_process_20 Deadline: 86400 Length: 138
+Cluster: Umea Tick: 43200 Available GPUs: 1 Benefit: 12781835.394546447
+Planned exectim, next 24h: 67960
+Adding process: test_process_21 Deadline: 86400 Length: 333
+Cluster: Umea Tick: 23700 Available GPUs: 1 Benefit: 31689738.554810014
+Planned exectim, next 24h: 68293
+Adding process: test_process_22 Deadline: 86400 Length: 3507
+Cluster: Umea Tick: 72000 Available GPUs: 1 Benefit: 682450423.143429
+Planned exectim, next 24h: 71800
+Adding process: test_process_23 Deadline: 86400 Length: 12896

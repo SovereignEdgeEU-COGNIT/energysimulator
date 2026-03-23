@@ -1,0 +1,36 @@
+Cluster status
+
+ClusterName | GPUs | Available GPUs | CO2 Intensity Now | CO2 Prediction [next 24 hour]        | Predicted Available GPUs [next 24 hour]
+------------|------|----------------|-------------------|--------------------------------------|-------------------------------------------
+Lulea       | 4    | 1              | 12.1	          	| 10, 11, 12, 13, 14, 15, 16, 17, ...  | 1, 2, 3, 4,
+Warsaw      | 8    | 3              | 400	          	| 40, 41, 42, 43, 44, 45, 46, 47, ...
+Paris		| 16   | 16             | 1000				| 20, 21, 22, 23, 24, 25, 26, 27, ...
+
+Process status
+
+ProcessID | PowerMean | Deadline [s]
+----------|-----------|-------------
+1         | 100       | 10023
+2         | 200       | 1024
+3         | 300       | 10023
+4         | 40        | 4024
+5         | 50        | 3023
+6         | 61        | 0
+
+The CO2 emissions are calculated as the product of the power consumption and the CO2 intensity of the cluster. 
+The deadline is the time in seconds that the process has to be completed. 
+The CO2 intensity is the amount of CO2 produced by the cluster in grams per kWh. 
+The PowerMean is the average power consumed by the process in Watts. The CO2 Prediction is the CO2 intensity of the cluster for the next 24 hours in grams per kWh.
+
+The problem is to decide if a process should be sceduled before its deadline, based on the available GPUs and the CO2 intensity of the clusters. The goal is to minimize the CO2 emissions running all processes.
+Some key observations. If the algoritm decide to postphone a processes due to lower C02 instensity, there might be a risk that the process will not be able to run on that cluster due to resource contraints.
+If many processes are postponed, the CO2 intensity of the cluster might increase due to the increased load on some clusters. Therefor the algoríthm need to predict available 
+resources GPUS and only phonephone the most power hungry processes. How can I solve this problem?
+
+
+
+
+
+
+
+

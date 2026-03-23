@@ -1,0 +1,240 @@
+[
+    {
+        "name": "Lulea",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/SE-SE1.csv",
+        "gpu_cost_euro_per_second": 0.001094
+    },
+    {
+        "name": "Stockholm",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/SE-SE3.csv",
+        "gpu_cost_euro_per_second": 0.001101
+    },
+    {
+        "name": "Lund",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/SE-SE4.csv",
+        "gpu_cost_euro_per_second": 0.001094
+    },
+    {
+        "name": "Amsterdam",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/NL.csv",
+        "gpu_cost_euro_per_second": 0.000962
+    },
+    {
+        "name": "Brussel",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/BE.csv",
+        "gpu_cost_euro_per_second": 0.001045
+    },
+    {
+        "name": "Berlin",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/DE.csv",
+        "gpu_cost_euro_per_second": 0.000913
+    },
+    {
+        "name": "Rome",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/IT-CSO.csv",
+        "gpu_cost_euro_per_second": 0.000929
+    },
+    {
+        "name": "Warsaw",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/PL.csv",
+        "gpu_cost_euro_per_second": 0.000696
+    },
+    {
+        "name": "Paris",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/FR.csv",
+        "gpu_cost_euro_per_second": 0.001096
+    },
+    {
+        "name": "London",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/GB.csv",
+        "gpu_cost_euro_per_second": 0.001003
+    },
+    {
+        "name": "Copenhagen",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/DK-DK2.csv",
+        "gpu_cost_euro_per_second": 0.00105
+    },
+    {
+        "name": "Oslo",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/NO-NO1.csv",
+        "gpu_cost_euro_per_second": 0.001096
+    },
+    {
+        "name": "Bergen",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/NO-NO5.csv",
+        "gpu_cost_euro_per_second": 0.001095
+    },
+    {
+        "name": "Budapest",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/HU.csv",
+        "gpu_cost_euro_per_second": 0.000983
+    },
+    {
+        "name": "Oulu",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/FI.csv",
+        "gpu_cost_euro_per_second": 0.001079
+    },
+    {
+        "name": "Athens",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/GR.csv",
+        "gpu_cost_euro_per_second": 0.000922
+    },
+    {
+        "name": "Vilnius",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/LT.csv",
+        "gpu_cost_euro_per_second": 0.001011
+    },
+    {
+        "name": "Riga",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/LV.csv",
+        "gpu_cost_euro_per_second": 0.000974
+    },
+    {
+        "name": "VLuxembourg City",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/LU.csv",
+        "gpu_cost_euro_per_second": 0.000995
+    },
+    {
+        "name": "Tallinn",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/EE.csv",
+        "gpu_cost_euro_per_second": 0.000971
+    },
+    {
+        "name": "Zagreb",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/HR.csv",
+        "gpu_cost_euro_per_second": 0.000972
+    },
+    {
+        "name": "Prague",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/CZ.csv",
+        "gpu_cost_euro_per_second": 0.000858
+    },
+    {
+        "name": "Sofia",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/BG.csv",
+        "gpu_cost_euro_per_second": 0.000925
+    },
+    {
+        "name": "Zurich",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/CH.csv",
+        "gpu_cost_euro_per_second": 0.001078
+    },
+    {
+        "name": "Nicosia",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/CY.csv",
+        "gpu_cost_euro_per_second": 0.000697
+    },
+    {
+        "name": "Vienna",
+        "nodes": 2,
+        "gpus_per_node": 2,
+        "carbon-intensity-trace": "./carbon_1s/AT.csv",
+        "gpu_cost_euro_per_second": 0.00105
+    },
+    {
+        "name": "Reykjavik",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/IS.csv",
+        "gpu_cost_euro_per_second": 0.001094
+    },
+    {
+        "name": "Bratislava",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/SK.csv",
+        "gpu_cost_euro_per_second": 0.00097
+    },
+    {
+        "name": "Ljubljana",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/SI.csv",
+        "gpu_cost_euro_per_second": 0.000989
+    },
+    {
+        "name": "Bucharest",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/RO.csv",
+        "gpu_cost_euro_per_second": 0.000924
+    },
+    {
+        "name": "Dublin",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/IE.csv",
+        "gpu_cost_euro_per_second": 0.000875
+    },
+    {
+        "name": "Trondheim",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/NO-NO3.csv",
+        "gpu_cost_euro_per_second": 0.001094
+    },
+    {
+        "name": "Tromso",
+        "nodes": 2,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s/NO-NO4.csv",
+        "gpu_cost_euro_per_second": 0.001076
+    },
+    {
+        "name": "Kristiansand",
+        "nodes": 2,
+        "gpus_per_node": 2,
+        "carbon-intensity-trace": "./carbon_1s/NO-NO2.csv",
+        "gpu_cost_euro_per_second": 0.001094
+    }
+]

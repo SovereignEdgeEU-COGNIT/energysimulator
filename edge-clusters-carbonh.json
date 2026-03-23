@@ -1,0 +1,206 @@
+[
+	{
+		"name": "Lulea",
+		"nodes": 2,
+		"gpus_per_node": 2,
+		"carbon-intensity-trace": "./carbon/SE-SE4.csv"
+	},
+	{
+		"name": "Stockholm",
+		"nodes": 2,
+		"gpus_per_node": 2,
+		"carbon-intensity-trace": "./carbon/SE-SE3.csv"
+	},
+	{
+		"name": "Lund",
+		"nodes": 2,
+		"gpus_per_node": 2,
+		"carbon-intensity-trace": "./carbon/SE-SE4.csv"
+	},
+	{
+		"name": "Amsterdam",
+		"nodes": 2,
+		"gpus_per_node": 2,
+		"carbon-intensity-trace": "./carbon/NL.csv"
+	},
+	{
+		"name": "Brussel",
+		"nodes": 2,
+		"gpus_per_node":2, 
+		"carbon-intensity-trace": "./carbon/BE.csv"
+	},
+	{
+		"name": "Berlin",
+		"nodes": 2,
+		"gpus_per_node": 2,
+		"carbon-intensity-trace": "./carbon/DE.csv"
+	},
+	{
+		"name": "Rome",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/IT-CSO.csv"
+	},
+	{
+		"name": "Warsaw",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/PL.csv"
+	},
+	{
+		"name": "Paris",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/FR.csv"
+	},
+	{
+		"name": "London",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/GB.csv"
+	},
+	{
+		"name": "Copenhagen",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/DK-DK2.csv"
+	},
+	{
+		"name": "Oslo",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/NO-NO1.csv"
+	},
+	{
+		"name": "Bergen",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/NO-NO5.csv"
+	},
+	{
+		"name": "Budapest",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/HU.csv"
+	},
+	{
+		"name": "Oulu",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/FI.csv"
+	},
+	{
+		"name": "Athens",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/GR.csv"
+	},
+	{
+		"name": "Vilnius",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/LT.csv"
+	},
+	{
+		"name": "Riga",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/LV.csv"
+	},
+	{
+		"name": "VLuxembourg City",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/LU.csv"
+	},
+	{
+		"name": "Tallinn",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/EE.csv"
+	},
+	{
+		"name": "Zagreb",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/HR.csv"
+	},
+	{
+		"name": "Prague",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/CZ.csv"
+	},
+	{
+		"name": "Sofia",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/BG.csv"
+	},
+	{
+		"name": "Zurich",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/CH.csv"
+	},
+	{
+		"name": "Nicosia",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/CY.csv"
+	},
+	{
+		"name": "Vienna",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/AT.csv"
+	},
+	{
+		"name": "Reykjavik",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/IS.csv"
+	},
+	{
+		"name": "Bratislava",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/SK.csv"
+	},
+	{
+		"name": "Ljubljana",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/SI.csv"
+	},
+	{
+		"name": "Bucharest",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/RO.csv"
+	},
+	{
+		"name": "Dublin",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/IE.csv"
+	},
+	{
+		"name": "Trondheim",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/NO-NO3.csv"
+	},
+	{
+		"name": "Tromso",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/NO-NO4.csv"
+	},
+	{
+		"name": "Kristiansand",
+		"nodes": 2,
+		"gpus_per_node": 2, 
+		"carbon-intensity-trace": "./carbon/NO-NO2.csv"
+	}
+]

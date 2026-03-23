@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Lulea",
+        "nodes": 4,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s_30d/SE-SE1.csv",
+        "gpu_cost_euro_per_second": 0.001094
+    },
+    {
+        "name": "Warsaw",
+        "nodes": 16,
+        "gpus_per_node": 8,
+        "carbon-intensity-trace": "./carbon_1s_30d/PL.csv",
+        "gpu_cost_euro_per_second": 0.000696
+    }
+]
